@@ -42,9 +42,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(110, 47);
+            this.label1.Location = new System.Drawing.Point(147, 58);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(172, 18);
+            this.label1.Size = new System.Drawing.Size(215, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre del producto:";
             // 
@@ -52,9 +53,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(110, 114);
+            this.label2.Location = new System.Drawing.Point(147, 140);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 18);
+            this.label2.Size = new System.Drawing.Size(127, 24);
             this.label2.TabIndex = 1;
             this.label2.Text = "Precio base:";
             // 
@@ -62,32 +64,37 @@
             // 
             this.LblPrecioFinal.AutoSize = true;
             this.LblPrecioFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPrecioFinal.Location = new System.Drawing.Point(110, 262);
+            this.LblPrecioFinal.Location = new System.Drawing.Point(147, 322);
+            this.LblPrecioFinal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblPrecioFinal.Name = "LblPrecioFinal";
-            this.LblPrecioFinal.Size = new System.Drawing.Size(129, 18);
+            this.LblPrecioFinal.Size = new System.Drawing.Size(157, 24);
             this.LblPrecioFinal.TabIndex = 2;
             this.LblPrecioFinal.Text = "Precio final: $ --";
             // 
             // TxtNombre
             // 
-            this.TxtNombre.Location = new System.Drawing.Point(308, 48);
+            this.TxtNombre.Location = new System.Drawing.Point(411, 59);
+            this.TxtNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtNombre.Name = "TxtNombre";
-            this.TxtNombre.Size = new System.Drawing.Size(174, 20);
+            this.TxtNombre.Size = new System.Drawing.Size(231, 22);
             this.TxtNombre.TabIndex = 3;
             // 
             // TxtPrecio
             // 
-            this.TxtPrecio.Location = new System.Drawing.Point(308, 112);
+            this.TxtPrecio.Location = new System.Drawing.Point(411, 138);
+            this.TxtPrecio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtPrecio.Name = "TxtPrecio";
-            this.TxtPrecio.Size = new System.Drawing.Size(174, 20);
+            this.TxtPrecio.Size = new System.Drawing.Size(231, 22);
             this.TxtPrecio.TabIndex = 4;
+            this.TxtPrecio.TextChanged += new System.EventHandler(this.TxtPrecio_TextChanged);
             // 
             // BtnRopa
             // 
             this.BtnRopa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRopa.Location = new System.Drawing.Point(137, 197);
+            this.BtnRopa.Location = new System.Drawing.Point(183, 242);
+            this.BtnRopa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnRopa.Name = "BtnRopa";
-            this.BtnRopa.Size = new System.Drawing.Size(102, 34);
+            this.BtnRopa.Size = new System.Drawing.Size(136, 42);
             this.BtnRopa.TabIndex = 5;
             this.BtnRopa.Text = "Ropa";
             this.BtnRopa.UseVisualStyleBackColor = true;
@@ -96,9 +103,10 @@
             // BtnElectronico
             // 
             this.BtnElectronico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnElectronico.Location = new System.Drawing.Point(308, 197);
+            this.BtnElectronico.Location = new System.Drawing.Point(411, 242);
+            this.BtnElectronico.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnElectronico.Name = "BtnElectronico";
-            this.BtnElectronico.Size = new System.Drawing.Size(96, 34);
+            this.BtnElectronico.Size = new System.Drawing.Size(128, 42);
             this.BtnElectronico.TabIndex = 6;
             this.BtnElectronico.Text = "Electrónico";
             this.BtnElectronico.UseVisualStyleBackColor = true;
@@ -107,9 +115,10 @@
             // BtnAlimenticio
             // 
             this.BtnAlimenticio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAlimenticio.Location = new System.Drawing.Point(452, 197);
+            this.BtnAlimenticio.Location = new System.Drawing.Point(603, 242);
+            this.BtnAlimenticio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnAlimenticio.Name = "BtnAlimenticio";
-            this.BtnAlimenticio.Size = new System.Drawing.Size(88, 34);
+            this.BtnAlimenticio.Size = new System.Drawing.Size(117, 42);
             this.BtnAlimenticio.TabIndex = 7;
             this.BtnAlimenticio.Text = "Alimenticio";
             this.BtnAlimenticio.UseVisualStyleBackColor = true;
@@ -117,10 +126,10 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkKhaki;
-            this.ClientSize = new System.Drawing.Size(684, 450);
+            this.ClientSize = new System.Drawing.Size(912, 554);
             this.Controls.Add(this.BtnAlimenticio);
             this.Controls.Add(this.BtnElectronico);
             this.Controls.Add(this.BtnRopa);
@@ -129,6 +138,7 @@
             this.Controls.Add(this.LblPrecioFinal);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Catalogo de Productos";
             this.Load += new System.EventHandler(this.Form1_Load);

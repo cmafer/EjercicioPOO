@@ -43,5 +43,10 @@ namespace g7eje1
         {
 
         }
+
+        private void TxtPrecio_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
